@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2567b739-d0bc-4618-915e-a0f968ab841c">
+	<property name="ireport.zoom" value="1.0717944050000008"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="192"/>
+	<subDataset name="dataset1" uuid="cd7f471c-57e6-40c2-96dd-e2f82fba1035">
+		<field name="_THIS" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="dataset2" uuid="de391955-1d62-41e3-8ecc-49709c9a888c">
+		<field name="_THIS" class="java.lang.String"/>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<field name="titulo" class="java.lang.String"/>
+	<field name="autor" class="java.lang.String"/>
+	<field name="tipo" class="java.lang.String"/>
+	<field name="consejo" class="java.lang.String"/>
+	<field name="imagen" class="java.lang.Object"/>
+	<field name="comensales" class="java.lang.String"/>
+	<field name="preparacion" class="java.lang.String"/>
+	<field name="coccion" class="java.lang.String"/>
+	<field name="ingredientes" class="java.util.List"/>
+	<field name="pasos" class="java.util.List"/>
+	<group name="receta" isStartNewPage="true" footerPosition="ForceAtBottom">
+		<groupExpression><![CDATA[$F{titulo}]]></groupExpression>
+		<groupHeader>
+			<band height="475">
+				<textField>
+					<reportElement x="107" y="121" width="28" height="12" uuid="45498fc4-7f71-4872-83d0-7a0bdc580203"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{preparacion}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="293" y="121" width="27" height="12" uuid="5ae62162-2746-456c-9424-7047d52ac5c5"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{coccion}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="15" y="121" width="92" height="12" uuid="e377d8b0-9ead-479f-99bc-215e84b2de25"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Preparación:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="16" y="109" width="92" height="12" uuid="5655346d-d3f7-4555-a9cf-f9d4fa0ee842"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Comensales:]]></text>
+				</staticText>
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="555" height="20" forecolor="#FEFEFE" backcolor="#B90101" uuid="590a1fa0-f220-494e-aef2-2ffe4b76e43d"/>
+					<textElement textAlignment="Center">
+						<font fontName="DejaVu Sans" size="16" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{tipo}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="320" y="121" width="28" height="12" uuid="0fc57bad-b1c5-4d8c-b471-48ea81609b26"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Hs]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="108" y="109" width="36" height="12" uuid="d7470af7-770c-44ab-82f4-abd8a83cfc02"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{comensales}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="226" y="121" width="67" height="12" uuid="8ae8edc1-ea8d-42fc-8ba1-a37310406d69"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Cocción:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="135" y="121" width="28" height="12" uuid="797ba2cd-9d08-429f-b981-c81d8008d6b4"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Hs]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="16" y="138" width="288" height="31" forecolor="#FEFEFE" backcolor="#AC9AF4" uuid="def7896b-2566-4987-a105-052a1e83f4be"/>
+					<textElement verticalAlignment="Bottom">
+						<font size="18" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Ingredientes:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="283" y="109" width="148" height="12" uuid="a7e3666d-f5ca-430c-98d0-91999fcf3a5f"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{autor}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="226" y="109" width="57" height="12" uuid="b353e361-dc18-4019-bf2f-cd2a84c000d6"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Autor:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="14" y="372" width="539" height="31" forecolor="#FEFEFE" backcolor="#51D795" uuid="7e3e332f-b6ba-4ccf-a071-3366b3e3fd24"/>
+					<textElement verticalAlignment="Bottom">
+						<font size="18" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Procedimiento:]]></text>
+				</staticText>
+				<image scaleImage="FillFrame">
+					<reportElement x="317" y="138" width="238" height="224" uuid="4808e239-52ad-439f-a20b-b0504ceb019d"/>
+					<imageExpression><![CDATA[$F{imagen}]]></imageExpression>
+				</image>
+				<componentElement>
+					<reportElement stretchType="RelativeToTallestObject" x="15" y="414" width="540" height="28" uuid="ee505a96-51ee-4171-9ac3-aeabe9e3e241"/>
+					<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical" ignoreWidth="true">
+						<datasetRun subDataset="dataset2" uuid="7f568874-bf0f-4e28-9fbe-8304165219a9">
+							<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{pasos})]]></dataSourceExpression>
+						</datasetRun>
+						<jr:listContents height="14" width="540">
+							<textField isStretchWithOverflow="true">
+								<reportElement stretchType="RelativeToTallestObject" x="45" y="0" width="493" height="14" uuid="6bd64dd9-efc3-417e-9584-5a5bd5993794"/>
+								<textElement>
+									<font size="10" isBold="false" isPdfEmbedded="false"/>
+									<paragraph spacingAfter="1"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{_THIS}]]></textFieldExpression>
+							</textField>
+							<textField>
+								<reportElement x="11" y="0" width="32" height="14" uuid="018f9332-4d54-42cc-8111-321aa6d0fb17"/>
+								<textElement>
+									<font size="10"/>
+									<paragraph spacingAfter="1"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:listContents>
+					</jr:list>
+				</componentElement>
+				<elementGroup>
+					<componentElement>
+						<reportElement stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" x="20" y="179" width="287" height="20" uuid="1f6475b4-3b91-4490-8dd3-a95747f359bf"/>
+						<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+							<datasetRun subDataset="dataset1" uuid="99aa9285-ca84-45c4-b640-d4962f61e5c3">
+								<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{ingredientes})]]></dataSourceExpression>
+							</datasetRun>
+							<jr:listContents height="14" width="287">
+								<textField>
+									<reportElement stretchType="RelativeToTallestObject" x="44" y="0" width="243" height="14" uuid="106afddc-299a-4f2f-99a0-eecb94b955e8"/>
+									<textElement>
+										<font size="10" isBold="false"/>
+									</textElement>
+									<textFieldExpression><![CDATA[$F{_THIS}]]></textFieldExpression>
+								</textField>
+							</jr:listContents>
+						</jr:list>
+					</componentElement>
+				</elementGroup>
+				<frame>
+					<reportElement x="4" y="20" width="551" height="36" uuid="8a2ad572-15f8-4a1b-96d9-c03e6229d0e7"/>
+					<box>
+						<pen lineColor="#B90101"/>
+						<topPen lineColor="#B90101"/>
+						<leftPen lineColor="#B90101"/>
+						<bottomPen lineWidth="1.5" lineColor="#B90101"/>
+						<rightPen lineColor="#B90101"/>
+					</box>
+					<textField isStretchWithOverflow="true">
+						<reportElement stretchType="RelativeToTallestObject" x="1" y="0" width="548" height="36" uuid="2356f7d4-ec99-40fb-bda1-1f490382e7a9"/>
+						<textElement textAlignment="Center" verticalAlignment="Top">
+							<font fontName="Purisa" size="20" isBold="true"/>
+							<paragraph spacingAfter="1"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{titulo}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="111">
+				<elementGroup>
+					<rectangle>
+						<reportElement x="2" y="0" width="547" height="73" uuid="63ac25fc-1562-493e-b758-0a0e71831aaf"/>
+						<graphicElement>
+							<pen lineWidth="1.5"/>
+						</graphicElement>
+					</rectangle>
+					<textField pattern="dd/MM/yyyy">
+						<reportElement x="4" y="87" width="104" height="24" uuid="adfcd9ba-05b2-49cf-a12a-d37831403cdf"/>
+						<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+					</textField>
+					<textField>
+						<reportElement x="32" y="34" width="508" height="29" uuid="d9ead74f-5d2c-40b2-b340-857366b1eaf4"/>
+						<textFieldExpression><![CDATA[$F{consejo}]]></textFieldExpression>
+					</textField>
+					<staticText>
+						<reportElement x="27" y="14" width="96" height="20" uuid="06fddb86-c8db-43ac-8614-9d2778919dc0"/>
+						<textElement>
+							<font size="14" isBold="true"/>
+						</textElement>
+						<text><![CDATA[Consejo:]]></text>
+					</staticText>
+					<textField>
+						<reportElement x="282" y="87" width="258" height="24" uuid="9e369e7c-9306-46a2-82fa-da49467c0fb2"/>
+						<textElement textAlignment="Right"/>
+						<textFieldExpression><![CDATA["Pág "+$V{PAGE_NUMBER}]]></textFieldExpression>
+					</textField>
+				</elementGroup>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+</jasperReport>

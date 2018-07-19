@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/IngredientesDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/VentanaPrincipal.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/NuevaReceta.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/Config.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/Conexion.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/CredencialAdmin.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLIngredienteRecetaDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/Usuarios.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLPasosDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/DAOManager.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/controlador/Controlador.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/MiJTextField.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/DAOException.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/Preferencias.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLRecetasDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/ModeloTabla.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/UsuariosDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/Logica.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/Login.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/IngredienteRecetaDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/NuevoIngrediente.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/VerReceta.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/RecetasDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/imagenes/fondo_principal%20(copia).jpg</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/ComboEditor.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLUsuarioDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/TipoDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/DAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/reportes/ReporteIndiceReceta.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/CantidadIngrediente.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/Tipos.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLIngredientesDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/sqlitemysql/SQLiteMySQLTipoDAO.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/Registrar.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/Ingredientes.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/reportes/ReporteLibroRecetas.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/formularios/EditarReceta.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/Pasos.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/IngredienteReceta.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/controlador/Principal.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/dao/PasosDao.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/vista/imagenes/fondo_login.png</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/Recetas.java</file>
+            <file>file:/home/albano/NetBeansProjects/CookingRecipes/src/modelo/logica/ComboRender.java</file>
+        </group>
+    </open-files>
+</project-private>

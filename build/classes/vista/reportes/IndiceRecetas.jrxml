@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ddb67d1e-d5a2-4883-a777-c0fc5099ae9e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="dataset1" uuid="0319780e-70d5-4542-84f0-23b72ca68436"/>
+	<subDataset name="dataset2" uuid="5961f800-e0e8-4516-a389-b32ff5c7afb9"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/albano/NetBeansProjects/CookingRecipes/src/vista/reportes/"]]></defaultValueExpression>
+	</parameter>
+	<field name="titulo" class="java.lang.String"/>
+	<field name="pagina" class="java.lang.String"/>
+	<title>
+		<band height="131" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="74" forecolor="#FEFEFE" backcolor="#E57878" uuid="1c6e8eed-7542-4f5f-bc94-b3a07f227510"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Cookies" size="48" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cooking Recipes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="86" width="555" height="25" uuid="3a08be54-5e71-4177-95da-5bb3303401d1"/>
+				<textElement textAlignment="Center">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Indice]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="49">
+			<frame>
+				<reportElement x="76" y="0" width="401" height="28" uuid="2d3f4474-ba72-441b-9912-347acab16037"/>
+				<box>
+					<bottomPen lineWidth="1.5" lineColor="#92D663"/>
+				</box>
+				<textField isStretchWithOverflow="true">
+					<reportElement stretchType="RelativeToTallestObject" mode="Transparent" x="0" y="0" width="331" height="28" uuid="adf6d4da-985a-4d69-aff2-e6ca0c3a513f"/>
+					<box bottomPadding="0"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Purisa" size="14" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{titulo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement stretchType="RelativeToTallestObject" x="383" y="0" width="18" height="28" uuid="18cc776c-da95-443b-884a-a58c916b4ee5"/>
+					<box bottomPadding="0"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Purisa" size="14" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{pagina}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement stretchType="RelativeToTallestObject" x="344" y="0" width="39" height="28" uuid="603906e1-7734-41a7-8914-0392cd7a381b"/>
+					<box bottomPadding="0"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Purisa" size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Pág: ]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>
