@@ -6,7 +6,7 @@
 Cada sesión posee una lista propia de ingredientes y una lista propia de tipos de comidas (carnes, postres, ...) que el usuario va agregando según su necesidad.<p>
 <p>Existe un formulario para crear una receta en el cual se especifican:<br>
 
--nombre de la receta.<br>
+-Título de la receta.<br>
 -Tipo de comida.<br>
 -Cantidad de comensales.<br>
 -Tiempo de preparación.<br>
@@ -21,8 +21,8 @@ Cada sesión posee una lista propia de ingredientes y una lista propia de tipos 
 <p>Existe un buscador de recetas dinámico (encuentra a medida que se escribe en el campo de busqueda sin necesidad de presionar algún boton) que permite encontrar las recetas tanto por titulo como por tipo de comida.</p>
 <p>Finalmente el usuario puede generar un libro en PDF seleccionando cuales recetas desea incluir. Además, el libro generado contiene un indice que se crea automaticamente.</p>
 <h3>Requisitos:</h3>
-<p>La aplicación corre tanto en Unix (MacOs, Linux) como en sistemas Windows</p>
-<p>Requiere tener JVM instalada</p>
+<p>La aplicación corre tanto en Unix (MacOs, Linux) como en sistemas Windows.</p>
+<p>Requiere tener JVM instalada.</p>
 <h3>Especificaciones técnicas:</h3>
-<p>Por defecto es portable (con una base de datos SQLite embebida), pero también se puede conectar a una base de datos MySql directamente desde la aplicación sin necesidad de recompilar. Esto se hace mediante una opcion habilitada solo para una cuenta "administrador", en ésta opcion existe un formulario donde se cargan los datos de conexión de Mysql (Username, Password, Host y Database).</p>
+<p>Por defecto es portable (con una base de datos SQLite embebida), pero también se puede conectar a una base de datos MySql directamente desde la aplicación sin necesidad de recompilar. Esto se hace mediante una opcion habilitada solo para una cuenta "administrador" [<b>admin</b>, <b>cookingadmin</b>], en ésta opcion existe un formulario donde se cargan los datos de conexión de Mysql (Username, Password, Host y Database).</p>
 <p>Dentro de la clase "modelo.recuros.databases" se encuentra el fichero <b>cooking.sql</b> para Mysql y el fichero <b>cook.db</b> para SQLite.</p> 
